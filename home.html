@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body { 
+      font-family: "verdana", sans-serif ;background-color: lightblue;
+    }
+
+    .mySlides {
+      display: none
+    }
+    .reviewComment {
+      font-size:8pt;
+
+    }
+    .reviwContainer{
+      height:120px
+    }
+  </style>
+</head>
+
+
+<body> 
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-teal w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"
+        onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="home.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOG</a>
+      <a href="reviewpage.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">REVIEWS</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#books" class="w3-bar-item w3-button">Books</a>
+          <a href="#" class="w3-bar-item w3-button">SHOP</a>
+          <a href="#" class="w3-bar-item w3-button">BOOKCLUB</a>
+        </div>
+      </div>
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
+          class="fa fa-search"></i></a>
+    </div>
+  </div>
+
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+  </div>
+
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:2000px;margin-top:46px">
+    <!-- Automatic Slideshow Images -->
+
+    <div class="mySlides w3-display-container w3-center ">
+      <img src="img/this-girl.jpeg" style="width:50%;">
+      <div class="w3-display-bottommiddle w3-bar w3-teal w3-card reviwContainer" style="width:50%;" >
+        <h6>Colleen Hoover</h6>
+        <b><p class="reviewComment"> "Colleen Hoover is a must read author for me. Her books are nearly always perfection and even those I have not enjoyed were still wonderful books they were just not right for me. 
+          Her stories and characters are painfully real and I always become invested in the outcome. She is truly an author everyone should read at least once.''
+<b></p>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center ">
+      <img src="img/book2.png" style="width:50%">
+      <div class="w3-display-bottommiddle w3-bar w3-teal w3-card reviwContainer"  style="width:50%;" >
+        <h6>Colleen Hoover</h6>
+        <p class="reviewComment"><b>It starts with Us</b></p>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center ">
+      <img src="img/book3.webp" style="width:50%">
+      <div class="w3-display-bottommiddle w3-bar w3-teal w3-card reviwContainer" style="width:50%;">
+        <h6>Colleen Hoover</h6>
+        <p class="reviewComment"><b>Losing Hope </b></p>
+      </div>
+    </div>
+      <div class="mySlides w3-display-container w3-center ">
+        <img src="img/book3.webp" style="width:50%">
+        <div class="w3-display-bottommiddle w3-bar w3-teal w3-card reviwContainer" style="width:50%;">
+          <h6>Colleen Hoover</h6>
+          <p class="reviewComment"><b>Losing Hope </b></p>
+        </div>
+      </div>
+        <div class="mySlides w3-display-container w3-center ">
+          <img src="img/book3.webp" style="width:50%">
+          <div class="w3-display-bottommiddle w3-bar w3-teal w3-card reviwContainer" style="width:50%;">
+            <h6>Colleen Hoover</h6>
+            <p class="reviewComment"><b>Losing Hope </b></p>
+          </div>
+        </div>
+          <div class="mySlides w3-display-container w3-center ">
+            <img src="img/book3.webp" style="width:50%">
+            <div class="w3-display-bottommiddle w3-bar w3-teal w3-card reviwContainer" style="width:50%;">
+              <h6>Colleen Hoover</h6>
+              <p class="reviewComment"><b>Losing Hope </b></p>
+            </div>
+          </div>
+
+
+
+    <div class="w3-bar w3-center w3-margin-top">
+      <a href="#" class="w3-button fa fa-arrow-left " onclick="plusDivs(1)"></a>
+      <a href="#" class="w3-button " onclick="showDivs(1)">1</a>
+      <a href="#" class="w3-button" onclick="showDivs(2)">2</a>
+      <a href="#" class="w3-button" onclick="showDivs(3)">3</a>
+      <a href="#" class="w3-button" onclick="showDivs(4)">4</a>
+      <a href="#" class="w3-button" onclick="showDivs(5)">5</a>
+      <a href="#" class="w3-button" onclick="showDivs(6)">6</a>
+
+
+      <a href="#" class="w3-button fa fa-arrow-right " onclick="plusDivs(1)"></a>
+    </div>
+
+
+
+
+    <div class="w3-display-container w3-center" style="margin-top:50px; ">
+      <iframe width="50%" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+      </iframe>
+      
+    </div>
+
+      <div class="w3-display-container w3-center" style="margin-top:50px; ">
+        <iframe src="https://giphy.com/embed/xT0GqgR2vg6h0mkfrW" width="480" height="480" frameBorder="0" class="giphy-embed"
+          allowFullScreen></iframe>
+        <p><a href="https://giphy.com/gifs/hearts-studiosoriginalstickers-xT0GqgR2vg6h0mkfrW"></a></p>
+      
+      </div>
+
+
+    <div class="w3-display-container w3-center" style="margin-top:50px; ">
+
+    </div>
+
+    <!-- The Band Section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+      <h2 class="w3-wide">About US</h2>
+      <p class="w3-opacity"><i>We love Books!</i></p>
+      <p class="w3-justify"> We adore books! Our website was created to improve book experiences and reviews.
+         After becoming a member of the club, members may post their evaluations in a variety of categories.
+         There is also a hidden book club where we evaluate books with a few selected people. 
+         You must secure your spot a month in advance because we are always completely booked. 
+         There is also a nice range of books into which you may put your opinions after joining the group. 
+         We are thrilled to have you on board and hope that we can meet your requirements.
+         Enjoy your book club reading!
+        <div class="w3-third">
+        
+        </div>
+      </div>
+    </div>
+
+    <!-- The Tour Section -->
+    <div class="w3-black" id="tour">
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide w3-center">JOIN OUR BOOK CLUB</h2>
+        <p class="w3-opacity w3-center"><i>Remember to reserve your tickets!</i></p><br>
+
+        <ul class="w3-ul w3-border w3-white w3-text-grey">
+          <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+          <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+          <li class="w3-padding">November- email us to reserve a slot  <span class="w3-badge w3-right w3-margin-right"> 20 </span></li>
+        </ul>
+
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+          <div class="w3-third w3-margin-bottom">
+            <img src="img/dream.jpeg" alt="Dream" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white" >
+              <p><b>I had that Same Dream Again </b></p>
+              <p class="w3-opacity">23 Octorber 2022</p>
+              <p>''A gentle reminder is a quote filled book that I like to savor slowly 
+                just to appreciete and enjoy words. It definetely brought me back to the time.where I had to
+                make tought decisions and if i could have made a better decision. It helped me realize what i can
+              achieve to make my life better''</p>
+              <button class="w3-button w3-black w3-margin-bottom"
+                onclick="document.getElementById('ticketModal').style.display='block'"> Sold</button>
+            </div>
+          </div>
+          <div class="w3-third w3-margin-bottom">
+            <img src="img/langleav.jpeg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>The Gift of Everything</b></p>
+              <p class="w3-opacity">  23 Nov 2022</p>
+              <p>"The gift of everything by Lang leave expresses words of love loss and self empowwerment
+                that inspired millions across the globe.She has a great talent for writting
+                as she does a good job of adding vivid imagery to her poems".</p>
+              <button class="w3-button w3-black w3-margin-bottom"
+                onclick="document.getElementById('ticketModal').style.display='block'">Click Here to Reserve</button>
+            </div>
+          </div>
+          <div class="w3-third w3-margin-bottom">
+            <img src="img/gentlereminder.jpeg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>A gentle Reminder</b></p>
+              <p class="w3-opacity">Sun 29 Nov 2022</p>
+              <p>"This book is about unhappy girl who enagaged  in self harm osctacized
+                by her classmates and an old woman looking to live out her twiligh years in peace
+                a teacher assigns a grade schooler nanoka koyanagi, to define what happiness 
+                means to her by exploring her relationship to three strangers." </p>
+              <button class="w3-button w3-black w3-margin-bottom"
+                onclick="document.getElementById('ticketModal').style.display='block'">Click Here to Reserve</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ticket Modal -->
+    <div id="ticketModal" class="w3-modal">
+      <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32">
+          <span onclick="document.getElementById('ticketModal').style.display='none'"
+            class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+          <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+        </header>
+        <div class="w3-container">
+          <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+          <input class="w3-input w3-border" type="text" placeholder="How many?">
+          <p><label><i class="fa fa-user"></i> Send To</label></p>
+          <input class="w3-input w3-border" type="text" placeholder="Enter email">
+          <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i
+              class="fa fa-check"></i></button>
+          <button class="w3-button w3-red w3-section"
+            onclick="document.getElementById('ticketModal').style.display='none'">Close <i
+              class="fa fa-remove"></i></button>
+          <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Contact Section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+      <h2 class="w3-wide w3-center">CONTACT</h2>
+      <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-col m6 w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+          <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+          <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+        </div>
+        <div class="w3-col m6">
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+              </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+            <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Page Content -->
+  </div>
+
+  <!-- Image of location/map -->
+  <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+
+  <script>
+    // Automatic Slideshow - change image every 4 seconds
+    var myIndex = 0;
+    carousel();
+
+    function plusDivs(n) {
+      console.log("press left or right");
+      showDivs(myIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+
+      if (n > x.length) { myIndex = 1 }
+      if (n < 1) { myIndex = x.length }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[myIndex - 1].style.display = "block";
+    }
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 4000);
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
